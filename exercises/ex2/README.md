@@ -65,6 +65,10 @@ Notice how our previously created tsconfig file is extended with additional info
 
 ![CAP Project - Adding cds typer to the project](images/5.png)
 
+👉 Manually add the typescript types for the @sap/cds module:
+
+    npm add -D @cap-js/cds-types
+
 👉 Manually generate the types for the existing project with following command:
 
     npx @cap-js/cds-typer '*' --outputDirectory @cds-models
